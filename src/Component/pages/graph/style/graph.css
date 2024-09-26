@@ -1,0 +1,288 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bottomboxvalue{
+  display:flex;
+  justify-content: center;
+}
+.pageoverflow{
+  overflow: hidden;
+}
+.iconesize{
+  font-size: 12px;
+}
+
+.clickhere{
+  color:#0000EE;
+  font-weight: 600;
+}
+
+.clickhere:hover {
+  cursor: grab;
+}
+
+.notification-box-drag-tran{
+  position:absolute;
+  transform: translateX(80%);
+  background-color: #357962;  
+  color: #edfdfc;
+  padding: 8px 16px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  z-index: 999;
+  height:fit-content;
+  width:30%;
+  font-size: 12px;
+  font-weight: 500; 
+}
+.notification-box-drag-graph{
+  position:absolute;
+  transform: translateX(0%);
+  background-color: #357962;  
+  color: #edfdfc;
+  padding: 8px 16px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  z-index: 999;
+  height:fit-content;
+  width:30%;
+  font-size: 12px;
+  font-weight: 500; 
+}
+.notification-box-drag-card{
+  position:absolute;
+  transform: translateX(10%);
+  background-color: #d4d4d4 ;  
+  color: #357962;
+  padding: 8px 16px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  z-index: 999;
+  height:fit-content;
+  width:fit-content;
+  font-size: 12px;
+  font-weight: 500; 
+}
+.circlicone{
+  font-size: 12px;
+  margin-left: 3%;
+}
+.canvasjs-chart-credit{
+  display: none;
+}
+ .graph{
+  background-color:#295f4f !important; 
+  width:45%;
+  margin: 1%;
+  padding:2%;
+    } 
+
+  .apexcharts-legend.apx-legend-position-bottom.apexcharts-align-center {
+      position: relative;
+      margin-top: 3%;
+  }
+
+.apexcharts-legend-text{
+    position: relative !important;
+    color:#ffff !important
+}
+.amountcard{
+  font-size:20px;
+  font-weight: 600;
+ color:#ffff;
+}
+.secondtext{
+  color: #79bca5;
+  font-size: 12px;
+}
+.button1{
+    font-size: 10px;
+    font-weight: 500;
+    height: fit-content;
+    width:fit-content;
+    background-color:#b7f5d7;
+    border-radius: 15px;
+    padding:3%;
+  }
+  .Selectoption{
+    background-color: #ffff;
+    border: 2px solid #a0b8b0;
+    border-radius: 15px;
+    font-size: 10px;
+    height: 33px;
+  }
+  
+  .searchvalue{
+    border-radius: 15px;
+    background-color: #ffff;
+    border: 2px solid #a0b8b0;
+    font-size: 12px;
+    height: 33px;
+
+  }
+  .inputvalues{
+    font-size: 11px;
+    font-weight: 700;
+    color: #5c5c5c;
+
+  }
+  .header-nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    height: 40px;
+    height: 60px;
+    /* background-color: #2D1151; */
+    align-items: center;
+    background-color: #214f42; 
+  
+  }
+  .cardtext{
+font-size: 15px;
+color:#ffff;
+font-weight: bold;
+  }
+  tbody, td, tfoot, th, thead, tr {
+    border-color: inherit;
+    border-style: none !important;
+    border-width: 0;
+}
+.graphcolor{
+    background-color: #13342d;
+    border-radius: 20px;
+}
+.card{
+    border-style: none;
+}
+.selectoption{
+  position: absolute;
+  right: 2%;
+  width: 12%;
+  z-index: 100;
+  top: 5%;
+  background-color:#12332a;
+  border:solid 2px #50746a;  
+  border-radius: 15px;
+  color:#50746a; 
+  font-size: 12px;
+}
+@media (max-width: 570px) {
+  .bottomfont{
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .downlodecsv{
+    margin-left: 22vw !important;
+  }
+  .tablehead {
+    font-weight: 600;
+    font-size: 10px !important;
+    }
+
+  .inputvalues {
+    font-size: 8px;
+    font-weight: 700;
+    color: #5c5c5c;
+} 
+  .canvasjs-chart-container {
+    width: 300px !important;
+  }
+  .amountcard {
+    font-size: 11px;
+    font-weight: 600;
+    color: #ffff;
+}
+.secondtext {
+  color: #79bca5;
+  font-size: 8px;
+}
+.cardtext {
+  font-size: 9px;
+  color: #ffff;
+  font-weight: bold;
+}
+.transaction{
+  font-size:12px;
+}
+.searchvalue {
+  border-radius: 15px;
+  background-color: #ffff;
+  border: 2px solid #a0b8b0;
+  font-size: 8px;
+  height: 33px;
+}
+.graph {
+  background-color: #295f4f !important;
+  width: 48%;
+  margin: 1%;
+  padding: 2%;
+}
+.circle{
+  position: absolute;
+  right: 10%;
+}
+.apexcharts-title-text{
+  font-size:14px !important;
+}
+.apexcharts-legend.apx-legend-position-bottom.apexcharts-align-center {
+  position: absolute !important;
+  margin-top: 3%;
+}
+.selectoption {
+  position: absolute;
+  z-index: 100;
+  margin-left: 3%;
+  width: 18%;
+  background-color: #12332a;
+  border: solid 2px #50746a;
+  border-radius: 15px;
+  color: #50746a;
+  font-size: 12px;
+}
+
+
+
+}
+
+@media (min-width: 700px) and (max-width: 990px) {
+  .circle{
+    width: 85px !important;
+  }
+}
+
+.tablehead{
+  text-align: center;
+font-weight: 600;
+font-size: 12px;
+}
+.canvasjs-chart-toolbar{
+  display: none;
+}
+.table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.table th, .table td {
+  border: 0.2px solid #dee2e6 !important;
+  padding: 10px;
+  text-align: center;
+  width: 25%;
+
+}
+
+
+.table .tablehead {
+  background-color: #0b624f;
+  color: #f8f9fa;
+  font-weight: bold;
+}

@@ -1,0 +1,47 @@
+.videopage{
+    margin-top: 0%;
+    display: flex;
+    justify-content: center;
+}
+.videomain{
+    margin-top: 5%;
+    margin-left: 2%;
+    width: 100%;
+align-items: center;
+}
+.title{
+    text-align: center;
+}
+@media (max-width: 570px) {
+    .vieoiframe{
+        width: 320px !important;
+    }
+    .videomain{
+        margin-top: 5%;
+        width: 100% !important;
+    align-items: center;
+    }
+    .title{
+        text-align: right;
+        margin-right: 8%;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .videopage{
+        float: right;
+        margin-right: 4%;
+
+    }
+}
+@media(min-width:590px)and (max-width: 999px) {
+.videoresponsive {
+    width: 400px !important;
+    height: 300px !important;
+}
+.videopage {
+    margin-top: 0%;
+    display: flex;
+    justify-content: center;
+}
+
+}

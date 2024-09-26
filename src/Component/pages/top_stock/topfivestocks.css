@@ -1,0 +1,90 @@
+.graphvalue{  
+    background-color:#295f4f !important; 
+    width:30%;
+    margin: 1%;
+    padding:2%;
+    height:100px;
+    border-radius: 20px;
+    
+      } 
+      .bottombox{
+        display:flex;
+        justify-content: center;
+      }
+      .cardtextvalue{
+        color:#ffff;
+        font-size: 14px;
+      }
+      .header-nav{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 20px;
+        height: 40px;
+        height: 60px;
+        /* / background-color: #2D1151; / */
+        align-items: center;
+        background-color: #214f42; 
+      
+      }
+      .circlevalue{
+        width: 55px !important;
+        display: block;
+      }
+      .loadingOverlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        /* background-color: rgba(255, 255, 255, 0.8); Semi-transparent white background */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5em;
+        z-index: 1000; /* Ensure it appears above other elements */
+      }
+      @media (max-width: 570px) {
+        /* .main{
+          width:80% !important;
+        } */
+    .circlevalue{
+        width: 28px  !important;
+        display: block;
+        padding:0px;
+                  }
+    .graphvalue{  
+        background-color:#295f4f !important; 
+        width: 45%;
+        margin: 1%;
+        padding:2%;
+        height:55px;
+        border-radius: 10px;       
+         } 
+    .cardtextvalue{
+        color:#ffff;
+        font-size: 8px;
+      }
+      }
+@media (min-width: 600px) and (max-width: 900px) {
+  /* .main{
+    width:80% !important;
+  } */
+ .circlevalue{
+            width:40px !important;
+            display: block;
+            padding:0px;
+        }
+        .graphvalue{  
+            background-color:#295f4f !important; 
+            width: 30%;
+            margin: 1%;
+            padding:2%;
+            height:80px;
+            border-radius: 20px;
+        } 
+        .cardtextvalue{
+           color:#ffff;
+           font-size: 12px;
+        }
+      }
