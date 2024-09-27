@@ -1304,9 +1304,7 @@ const Indiandashboard = () => {
                   </div>
                   <div className="row justify-content-center mt-4">
                     <div className="col-md-12">
-                      <h5 className="text-center">
-                        Apex Chart: Age Distribution
-                      </h5>
+                      <h5 className="text-center">Allocation</h5>
                       <div className="d-flex justify-content-center">
                         <ApexChart product={product} />
                       </div>
